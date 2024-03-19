@@ -1,0 +1,27 @@
+BODY{
+    text-align: center;
+}
+#b1{
+    height: 1px;
+    width: 2px;
+    display: inline-block
+    animation-name: ju;
+    animation-duration: 10s;
+    font: size 1px;
+    color: red;
+    background-color: black;
+}
+@keyframe ju{
+    from{
+        font: size 1px;
+        left: 0px;
+        height: 1px;
+        width: 2px;
+    }
+    to{
+        font: size 30px;
+        left: 100px;
+        height: 100px;
+        width: 200px;
+    }
+}
